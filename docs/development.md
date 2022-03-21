@@ -52,7 +52,7 @@ tba.
 ## <a name="Server-Installation"></a>Server-Installation 
  
 1. Step
-  Compile folder contents in "/addons" to PBOs. ATTENTION: Format for the PBOs is "dob_<addon-folder-name>.pbo. Also these has to be loaded server-sie only.
+  Compile folder contents in "/addons" to PBOs. ATTENTION: Format for the PBOs is dob_"addon-folder-name".pbo. Also these have to be loaded server-side only.
   When hosting locally, everyone needs to load the created PBOs.
 2. Step
   Compile the contents of the missions folder in "/missions" into a PBO. This is your mission that should be loaded.
