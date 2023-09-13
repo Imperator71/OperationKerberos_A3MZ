@@ -9,7 +9,7 @@ layout: brigade
 [Components](#components)    
 [Functions](#functions)    
 [Coding-Guidlines](#coding)    
-
+[Server-Installation](#Server-Installation)   
 <hr>
 ## <a name="components"></a>Components
 The mission is splitted into serveral components. The Components can depend on each othere and won't be compiled if the conditions are not matched.
@@ -42,8 +42,17 @@ These Conditions can be other components or `CfgPatches` classes.
 [Component patch_bw](development/components/patch_bw.md)   
 [Component patch_acre](development/components/patch_acre.md)   
 
-<hr>
+
 ## <a name="functions"></a>Functions
 tba.
+ 
 ## <a name="coding"></a>Coding-Guidlines
-tba.
+tba. 
+ 
+## <a name="Server-Installation"></a>Server-Installation 
+ 
+1. Step
+  Compile folder contents in "/addons" to PBOs. ATTENTION: Format for the PBOs is dob_"addon-folder-name".pbo. Also these have to be loaded server-side only.
+  When hosting locally, everyone needs to load the created PBOs.
+2. Step
+  Compile the contents of the missions folder in "/missions" into a PBO. This is your mission that should be loaded.
